@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/keepbang/node-server-tile38-mqtt-/issues"
   },
-  "homepage": "https://github.com/keepbang/node-server-tile38-mqtt-#readme"
+  "homepage": "https://github.com/keepbang/node-server-tile38-mqtt-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.1.0",
+    "nodemon": "^2.0.4",
+    "tile38": "^0.7.0"
+  }
 }
