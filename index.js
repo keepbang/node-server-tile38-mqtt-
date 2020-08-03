@@ -52,8 +52,6 @@ app.get('/module/device/set',(req, res) => {
 
 })
 
-let polygon = {"type":"Polygon","coordinates": [[[126.205444335937,37.6316347558065],[125.952758789062,35.9957853864203],[128.424682617188,35.8801489648836],[128.699340820312,36.976226784641],[126.205444335937,37.6316347558065]]]};
-client.intersectsQuery('testFence').endPoints('mqtt://localhost:8443/RECEIVE/EVENT').detect('enter','exit').object(polygon)
 
 mqttClient.subscribe('GEOCOMMAND/RECEIVE/EVENT')
 
