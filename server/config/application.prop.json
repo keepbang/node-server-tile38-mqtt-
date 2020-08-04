@@ -1,0 +1,11 @@
+{
+    "mqtt" : {
+        "ip":"localhost",
+        "port":"1883"
+    },
+    "tile38" : {
+        "ip" : "localhost",
+        "port" : "9851"
+    }
+
+}
